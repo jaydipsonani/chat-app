@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "MONGO_USER=jaydipsonanicloudus24 MONGO_PASSWORD=wKsbDX4QKQSNUiY7 MONGO_DEFAULT_DATABASE=mydatabase node index.js",
+    "start-server": "node index.js"
+  },
+
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
+
